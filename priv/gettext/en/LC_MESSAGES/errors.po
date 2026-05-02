@@ -1,0 +1,8 @@
+## This file is a PO Template file.
+##
+## `msgid`s here are often extracted from source code.
+## Add new translations manually or edit existing ones.
+## Do not forget to add a `msgstr` for every `msgid`.
+##
+## Run `mix gettext.extract` to bring this file up to date.
+## Run `mix gettext.merge priv/gettext` to create translation files.
