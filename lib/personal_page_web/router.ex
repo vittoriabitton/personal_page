@@ -15,6 +15,7 @@ defmodule PersonalPageWeb.Router do
 
     live "/", HomeLive
     live "/til", TilLive
+    live "/til/:slug", TilLive.Show
     live "/projects", ProjectsLive
   end
 

@@ -8,6 +8,7 @@ defmodule PersonalPage.MixProject do
       elixir: "~> 1.15",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
+      listeners: [Phoenix.CodeReloader],
       aliases: aliases(),
       deps: deps()
     ]
@@ -40,6 +41,7 @@ defmodule PersonalPage.MixProject do
       {:gettext, "~> 0.26"},
       {:jason, "~> 1.4"},
       {:bandit, "~> 1.2"},
+      {:nimble_publisher, "~> 1.1"},
       {:earmark, "~> 1.4"}
     ]
   end
